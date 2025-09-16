@@ -103,7 +103,7 @@ const HowItWorks = () => {
               </p>
             </div>
 
-            <div className="flex-1 flex justify-center flex-col opacity-0 translate-y-[100px] g_fadeIn  py-10 ">
+            <div className="flex-1 flex justify-center flex-col opacity-0 translate-y-[100px] g_fadeIn  pt-10 ">
               <p className="text-gray-500 text-xl font-normal md:font-semibold">
                 New
               </p>
