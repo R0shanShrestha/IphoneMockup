@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body {
+    width: 100vw; /* full viewport width */
+    max-width: 100%;
+    color: white;
+    border-color: #3b3b3b;
+    user-select: none;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    overflow-x: hidden !important;
+    background-color: black;
+  }
+
+  canvas {
+    touch-action: none;
+    display: block; /* avoids tiny scrollbars from inline canvas spacing */
+  }
+}
+
+@layer utilities {
+  .screen-max-width {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    position: relative;
+    max-width: 1120px;
+  }
+}
